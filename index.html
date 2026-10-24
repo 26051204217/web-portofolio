@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Muhammad Habibie - S1 Teknik Informatika</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark">
+
+    
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-code">&lt;</span>Habibie<span class="logo-code">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Beranda</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> Tentang Saya</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Keahlian</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Proyek</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Pendidikan</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Kontak</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Ganti Tema">
+                    <i class="fa-solid fa-sun" id="theme-icon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Buka Menu">
+                    <i class="fa-solid fa-bars" id="menu-icon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-status">
+                        <span class="pulse-dot"></span> Mahasiswa S1 Teknik Informatika • UNESA
+                    </div>
+                    <h1 class="hero-title">
+                        Halo, Saya <span class="gradient-text">Muhammad Habibie</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        Saya seorang <span class="typing-text" id="typing-text">Tech Enthusiast</span><span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Mahasiswa Teknik Informatika di Universitas Negeri Surabaya dengan minat tinggi dalam pengembangan web, rekayasa perangkat lunak, dan eksplorasi teknologi digital. Selalu antusias untuk belajar hal baru dan membangun solusi kreatif.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-rocket"></i> Lihat Proyek
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-solid fa-paper-plane"></i> Hubungi Saya
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="mailto:26051204217@mhs.unesa.ac.id" class="social-icon" title="Email Unesa" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com" class="social-icon" title="GitHub" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="social-icon" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com" class="social-icon" title="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="hero-avatar-card">
+                        <div class="avatar-glow"></div>
+                        <div class="avatar-box">
+                            <!-- Tempat Foto Pengguna: Ganti src gambar jika ingin memakai foto asli -->
+                            <div class="avatar-placeholder">
+                                <i class="fa-solid fa-user-astronaut"></i>
+                                <span class="avatar-tag">Habibie (217)</span>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-top">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>Web Developer</span>
+                        </div>
+                        <div class="floating-badge badge-bottom">
+                            <i class="fa-solid fa-code-commit"></i>
+                            <span>NIM: 26051204217</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Kenali Saya</span>
+                    <h2 class="section-title">Tentang <span class="gradient-text">Saya</span></h2>
+                    <p class="section-subtitle">Mengenal lebih dekat latar belakang, minat, dan identitas saya.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card bio-card">
+                        <h3><i class="fa-solid fa-id-card"></i> Profil Singkat</h3>
+                        <p>
+                            Halo! Saya <strong>Muhammad Habibie</strong>, mahasiswa aktif program studi <strong>S1 Teknik Informatika</strong> di <strong>Universitas Negeri Surabaya (UNESA)</strong>.
+                        </p>
+                        <p>
+                            Saya memiliki ketertarikan mendalam pada dunia pemrograman komputer, perancangan antarmuka pengguna (UI/UX), dan pengembangan aplikasi web. Saya menyukai tantangan dalam memecahkan masalah logika serta terus beradaptasi dengan perkembangan teknologi masa kini.
+                        </p>
+                        <p>
+                            Halaman web ini disusun sebagai bagian dari identitas personal dan portofolio dalam kegiatan <strong>Orientasi Studi Jurusan (OSJUR)</strong> Teknik Informatika UNESA.
+                        </p>
+                    </div>
+
+                    <div class="about-card details-card">
+                        <h3><i class="fa-solid fa-circle-info"></i> Data Diri</h3>
+                        <ul class="info-list">
+                            <li>
+                                <span class="info-label"><i class="fa-solid fa-user"></i> Nama:</span>
+                                <span class="info-value">Muhammad Habibie</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fa-solid fa-hashtag"></i> No. Presensi/Kel:</span>
+                                <span class="info-value">18</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fa-solid fa-id-badge"></i> NIM:</span>
+                                <span class="info-value">26051204217</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fa-solid fa-building-columns"></i> Universitas:</span>
+                                <span class="info-value">Universitas Negeri Surabaya (UNESA)</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fa-solid fa-graduation-cap"></i> Program Studi:</span>
+                                <span class="info-value">S1 Teknik Informatika</span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fa-solid fa-envelope"></i> Email Kampus:</span>
+                                <span class="info-value"><a href="mailto:26051204217@mhs.unesa.ac.id">26051204217@mhs.unesa.ac.id</a></span>
+                            </li>
+                            <li>
+                                <span class="info-label"><i class="fa-solid fa-location-dot"></i> Domisili:</span>
+                                <span class="info-value">Surabaya, Jawa Timur</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- VALUES / MOTTO -->
+                <div class="values-grid">
+                    <div class="value-item">
+                        <div class="value-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                        <h4>Kreatif & Inovatif</h4>
+                        <p>Menciptakan solusi visual dan teknis yang tidak hanya fungsional tetapi juga memikat secara estetika.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon"><i class="fa-solid fa-users-gear"></i></div>
+                        <h4>Kolaboratif</h4>
+                        <p>Mampu bekerja sama dalam tim, mendengarkan gagasan, dan mencapai tujuan bersama secara efektif.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon"><i class="fa-solid fa-fire"></i></div>
+                        <h4>Pembelajar Cepat</h4>
+                        <p>Antusias mempelajari teknologi, framework, dan metodologi terbaru di industri IT.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Kompetensi</span>
+                    <h2 class="section-title">Keahlian & <span class="gradient-text">Teknologi</span></h2>
+                    <p class="section-subtitle">Bahasa pemrograman, teknologi, serta keahlian yang saya pelajari dan kembangkan.</p>
+                </div>
+
+                <div class="skills-wrapper">
+                    <!-- Technical Skills -->
+                    <div class="skills-category">
+                        <h3 class="category-title"><i class="fa-solid fa-code"></i> Keahlian Teknis (Hard Skills)</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="fa-brands fa-html5 skill-icon html-color"></i>
+                                    <h4>HTML5</h4>
+                                </div>
+                                <p>Struktur semantik dokumen web modern & aksesibilitas standar.</p>
+                                <div class="skill-level"><span style="width: 85%;"></span></div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="fa-brands fa-css3-alt skill-icon css-color"></i>
+                                    <h4>CSS3</h4>
+                                </div>
+                                <p>Flexbox, CSS Grid, Responsive Design, animasi & estetika modern.</p>
+                                <div class="skill-level"><span style="width: 80%;"></span></div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="fa-brands fa-js skill-icon js-color"></i>
+                                    <h4>JavaScript</h4>
+                                </div>
+                                <p>DOM Manipulation, Event Handling, asynchronous & modern ES6+.</p>
+                                <div class="skill-level"><span style="width: 70%;"></span></div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="fa-brands fa-git-alt skill-icon git-color"></i>
+                                    <h4>Git & GitHub</h4>
+                                </div>
+                                <p>Version control system, branching, commit workflow & repositori.</p>
+                                <div class="skill-level"><span style="width: 75%;"></span></div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="fa-solid fa-terminal skill-icon cpp-color"></i>
+                                    <h4>C++ / Pemrograman Dasar</h4>
+                                </div>
+                                <p>Algoritma dasar, struktur data dasar, dan logika pemrograman.</p>
+                                <div class="skill-level"><span style="width: 75%;"></span></div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-header">
+                                    <i class="fa-brands fa-figma skill-icon figma-color"></i>
+                                    <h4>UI/UX & Figma</h4>
+                                </div>
+                                <p>Wireframing, prototyping, dan desain visual antarmuka pengguna.</p>
+                                <div class="skill-level"><span style="width: 65%;"></span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skills-category">
+                        <h3 class="category-title"><i class="fa-solid fa-brain"></i> Kemampuan Interpersonal (Soft Skills)</h3>
+                        <div class="soft-skills-grid">
+                            <div class="soft-pill"><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</div>
+                            <div class="soft-pill"><i class="fa-solid fa-comments"></i> Komunikasi Efektif</div>
+                            <div class="soft-pill"><i class="fa-solid fa-people-group"></i> Kerja Sama Tim</div>
+                            <div class="soft-pill"><i class="fa-solid fa-clock"></i> Manajemen Waktu</div>
+                            <div class="soft-pill"><i class="fa-solid fa-arrows-rotate"></i> Kemampuan Adaptasi</div>
+                            <div class="soft-pill"><i class="fa-solid fa-magnifying-glass"></i> Berpikir Kritis</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Hasil Karya</span>
+                    <h2 class="section-title">Proyek & <span class="gradient-text">Portofolio</span></h2>
+                    <p class="section-subtitle">Beberapa proyek dan eksplorasi teknologi yang pernah saya rancang dan buat.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-banner project-banner-1">
+                            <i class="fa-solid fa-globe"></i>
+                            <span class="project-badge">Tugas Utama</span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <h3 class="project-title">Website Portofolio Interaktif (OSJUR)</h3>
+                            <p class="project-desc">
+                                Website portofolio pribadi modern, responsif, dan elegan yang dirancang khusus untuk pemenuhan tugas Ospek Jurusan (OSJUR) S1 Teknik Informatika UNESA.
+                            </p>
+                            <div class="project-features">
+                                <span><i class="fa-solid fa-check"></i> Dark & Light Mode</span>
+                                <span><i class="fa-solid fa-check"></i> Responsif di Semua Layar</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#home" class="btn-link"><i class="fa-solid fa-eye"></i> Tinjau Saat Ini</a>
+                                <a href="https://github.com" target="_blank" class="btn-link" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-banner project-banner-2">
+                            <i class="fa-solid fa-list-check"></i>
+                            <span class="project-badge">Web Application</span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Local Storage</span>
+                                <span class="tag">CSS Flexbox</span>
+                            </div>
+                            <h3 class="project-title">Student Task & Schedule Manager</h3>
+                            <p class="project-desc">
+                                Aplikasi web manajemen tugas kuliah berbasis browser untuk mengatur jadwal mata kuliah, deadline tugas, dan catatan belajar dengan fitur prioritas tugas.
+                            </p>
+                            <div class="project-features">
+                                <span><i class="fa-solid fa-check"></i> Penyimpanan Otomatis</span>
+                                <span><i class="fa-solid fa-check"></i> Filter Berdasarkan Kategori</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="btn-link"><i class="fa-solid fa-circle-info"></i> Selengkapnya</a>
+                                <a href="https://github.com" target="_blank" class="btn-link" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-banner project-banner-3">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            <span class="project-badge">UI/UX Design</span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">Design System</span>
+                                <span class="tag">User Centered</span>
+                            </div>
+                            <h3 class="project-title">Desain Aplikasi Kampus Pintar (Smart Campus)</h3>
+                            <p class="project-desc">
+                                Konsep prototipe antarmuka aplikasi mobile kampus ramah mahasiswa untuk mengakses jadwal kuliah terintegrasi, peminjaman buku perpustakaan, dan presensi digital.
+                            </p>
+                            <div class="project-features">
+                                <span><i class="fa-solid fa-check"></i> Interactive Prototype</span>
+                                <span><i class="fa-solid fa-check"></i> Clean Minimalist UI</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="btn-link"><i class="fa-solid fa-circle-info"></i> Selengkapnya</a>
+                                <a href="https://figma.com" target="_blank" class="btn-link" rel="noopener noreferrer"><i class="fa-brands fa-figma"></i> Prototype</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION & JOURNEY SECTION -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Riwayat & Jejak</span>
+                    <h2 class="section-title">Pendidikan & <span class="gradient-text">Pengalaman</span></h2>
+                    <p class="section-subtitle">Perjalanan akademis dan aktivitas pengembangan diri yang saya jalani.</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Sekarang</div>
+                            <h3 class="timeline-title">S1 Teknik Informatika</h3>
+                            <h4 class="timeline-subtitle">Universitas Negeri Surabaya (UNESA)</h4>
+                            <p>
+                                Mendalami ilmu komputer, struktur data, algoritma, rekayasa perangkat lunak, pemrograman web, serta aktif dalam kegiatan kemahasiswaan dan keilmuan informatika.
+                            </p>
+                            <span class="timeline-badge">NIM: 26051204217</span>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2026</div>
+                            <h3 class="timeline-title">Peserta OSJUR (Orientasi Studi Jurusan)</h3>
+                            <h4 class="timeline-subtitle">Himpunan Mahasiswa Teknik Informatika UNESA</h4>
+                            <p>
+                                Mengikuti rangkaian kegiatan orientasi pengenalan jurusan, penanaman etika mahasiswa teknik, pembentukan kepemimpinan, dan penyelesaian proyek portofolio digital.
+                            </p>
+                            <span class="timeline-badge">Kelompok / Absen 18</span>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">Sebelumnya</div>
+                            <h3 class="timeline-title">Pendidikan Sekolah Menengah Atas / Kejuruan</h3>
+                            <h4 class="timeline-subtitle">Lulus dengan Prestasi & Minat Bidang Sains & Teknologi</h4>
+                            <p>
+                                Membangun pondasi yang kuat dalam bidang matematika, logika komputasi, serta eksplorasi awal dunia teknologi informasi dan digital skill.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Hubungi</span>
+                    <h2 class="section-title">Mari <span class="gradient-text">Terhubung</span></h2>
+                    <p class="section-subtitle">Terbuka untuk diskusi, kolaborasi proyek, atau sekadar bertukar sapa!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-wrapper">
+                        <div class="contact-card">
+                            <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email Kampus</h4>
+                                <a href="mailto:26051204217@mhs.unesa.ac.id">26051204217@mhs.unesa.ac.id</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon"><i class="fa-solid fa-building-columns"></i></div>
+                            <div>
+                                <h4>Institusi</h4>
+                                <p>Universitas Negeri Surabaya (UNESA)<br>Kampus Ketintang, Surabaya</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                            <div>
+                                <h4>Media Sosial</h4>
+                                <div class="contact-social-pills">
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <h3><i class="fa-solid fa-paper-plane"></i> Kirim Pesan Cepat</h3>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="sender-name">Nama Lengkap</label>
+                                <input type="text" id="sender-name" name="name" placeholder="Masukkan nama Anda..." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sender-email">Alamat Email</label>
+                                <input type="email" id="sender-email" name="email" placeholder="nama@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sender-message">Pesan / Tanggapan</label>
+                                <textarea id="sender-message" name="message" rows="4" placeholder="Tuliskan pesan atau masukan Anda di sini..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Kirim Pesan
+                            </button>
+                            <p class="form-status" id="form-status"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">
+                    <span class="logo-code">&lt;</span>Habibie<span class="logo-code">/&gt;</span>
+                </a>
+                <p>Web Portofolio Diri • S1 Teknik Informatika Universitas Negeri Surabaya</p>
+            </div>
+            
+            <div class="footer-nav">
+                <a href="#home">Beranda</a>
+                <a href="#about">Tentang</a>
+                <a href="#skills">Keahlian</a>
+                <a href="#projects">Proyek</a>
+                <a href="#contact">Kontak</a>
+            </div>
+
+            <div class="footer-copyright">
+                <p>&copy; 2026 <strong>Muhammad Habibie</strong> (18_MUHAMMAD HABIBIE_217). All Rights Reserved.</p>
+                <p class="footer-subtext">Dibuat dengan dedikasi untuk Orientasi Studi Jurusan (OSJUR) Teknik Informatika UNESA.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="back-to-top" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
